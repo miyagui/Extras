@@ -26,6 +26,9 @@
         "url": "https://github.com/cryptomator/cryptomator/releases",
         "regex": "Cryptomator-([\\d.]+)-x64\\.msi"
     },
+    "suggest": {
+        "WinFsp": "nonportable/winfsp-np"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
